@@ -1,0 +1,45 @@
+header {
+  height: 150px;
+  width: 70%;
+  background-color: gray;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-top: 0px;
+  transform: translate(200px, 0px);
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.logo {
+  height: 100px;
+  width: 120px;
+  border-radius: 30px;
+}
+
+.divIcono {
+  height: 100px;
+  width: 180px;
+  transform: translate(40px, 25px);
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  position: absolute;
+  margin-left: 130px;
+}
+
+.barra {
+  display: flex;
+  justify-content: end;
+  transform: translate(0px, -90px);
+}
+
+.barraLbl {
+  margin-right: 20px;
+  font-size: 20px;
+}

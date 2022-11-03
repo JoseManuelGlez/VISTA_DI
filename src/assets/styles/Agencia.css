@@ -1,0 +1,86 @@
+label {
+  color: white;
+}
+
+p{
+  text-align: center;
+  color: rgb(16, 16, 145);
+  font-size: 20px;
+}
+
+u{
+  font-size: 18px;
+  color: rgb(16, 16, 145);
+}
+
+input{
+  width: 300px;
+}
+
+.cuerpo {
+  width: 70%;
+  height: 750px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: black ;
+  border-radius: 40px;
+}
+
+
+.menu{
+  height: 250px;
+  width: 150px;
+  background-color: gray;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  transform: translate(0px, 40px);
+}
+
+.contenido{
+  height: 400px;
+  width: 600px;
+  transform: translate(100px, 0px);
+  color: white;
+}
+
+.contenido p{
+  color: white;
+  text-align: left;
+}
+
+.contenido h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.viaje{
+  height: 150px;
+  width: 600px;
+  background-color: aqua;
+  border-radius: 40px;
+}
+
+.agencia{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+form{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.cotizacion{
+  height: 225px;
+  width: 80%;
+  transform: translate(100px, 0px);
+  width: 70%;
+}
+
+.cotizacion h1{
+  text-align: center;
+  color: white;
+}

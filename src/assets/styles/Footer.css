@@ -1,0 +1,33 @@
+footer {
+  height: 150px;
+  width: 70%;
+  background-color: gray;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  transform: translate(200px, 0px);
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.redes{
+  height: 80px;
+  width: 80px;
+  background-color: aqua;
+  border-radius: 40px;
+  margin-left: 20px;
+}
+
+.red{
+  display: flex;
+  transform: translate(300px, 40px);
+}
